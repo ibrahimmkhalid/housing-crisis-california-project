@@ -7,3 +7,15 @@
     - Market Heat Index, All Homes, Monthly, Metro & US -> `./data/in/zillow_market_heat.csv`
     - Affordability, New Homeowner Income Needed, Metro & US -> `./data/in/zillow_affordability.csv`
 
+### Notebooks
+- `1_make_demographic_data.ipynb` - responsible from combinging all the census data files into one csv
+- `2_combine.ipynb` - makes the various combinations for the files in `./data/out/`
+- `3_python_visualizations.ipynb` - run some exploratory analysis using python
+
+### Dashboards
+- Tableau
+- PowerBI
+
+### Extra Stuff
+- `4_extra.ipynb` - extra stuff used for making visualizations
+- `./draw.io/` - some figures used in the report
