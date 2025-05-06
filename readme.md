@@ -1,21 +1,26 @@
-
 ### Datasets
 
 - [California Census Data (2008)](https://data.census.gov/app/mdat/ACSPUMS1Y2008/table?cv=ucgid&rv=AGEP_RC1,SEX,SCHL_RC1,HISP_RC1,RAC1P_RC1,PINCP_RC1&wt=PWGTP&g=AwFm-BVBlYDYg&AGEP_RC1=N4IgyiBcIEoKYGMD2ATOACAZkgTugggOZwgA0sUI~A4gKIAKZIAalANpsgAMXpAjJAF8A7Ex7oALknQiyEnAFc4AXVKchADkgA2ACxM~GydL1zFKtSAHaArJACc9prePoNXANRmly5QF8gA&SCHL_RC1=N4IgyiBcIEoKYGMD2ATOACAZkgTugoigK4ICGALgJZIB2pANuheaZTQLZw3kgA0sUcAGEAEgBk~IAGpQA2rJABGAGy9FAdkkjKAcwAW6AM4I9SJI1zo4ARyKUAbgy49e5HETgBdXgoBMABjUATjUADkkwJE50ZHp6OB04XnR4w0N0cj1SGnQAFgBaAE88NB0cODg~Nw9vPwBmXl9cxsVG30kAIVITOHpcAHJ00vKMSz1dPTgcKvcvHyUAVl5-VsUG-yXAxVb-VX9mxWb-dZD-dTVfNUD-UOX2-gA5JHRx-SMTM0YUSgAHPvZSDMap4AL5AA&HISP_RC1=N4IgyiBcIEoKYGMD2ATOACAZkgTu~yaK6aALgIYCWANnMQBKUDOADuQHaULq6UDmldiAA0sKCHoBJMAAURIAGpQA2spAAGAEzD1AZh0AWHQFYdANh0B2HQA4dATmEBGdc6fPtT-U6NPTTiydrJzsnR01XTXdNbU19TQN5RlYOLhFSHABXOABdYTV1J3kAOSRSdGS2TgR0rNycgF8gA&RAC1P_RC1=N4IgyiBcIEoKYGMD2ATOACAZkgTu~yaK6aALgIYCWANnMTuQhoXCADSxSwCCAwgIwAFdiABqUANoSQ-EQHUAFpVKs2pHAFc4AXTbSATCO6YclBOQB26bgFs4p8xfbqtu6QDYjAZ0qXnmnT0QAGY2ABY2AFY2AHY2AA42AE4RAHlSBXt-V20AXyA&PINCP_RC1=N4IgyiBcIEoKYGMD2ATOACAZkgTugKkgC4CGANugA5w4DOSAdgOS3oCWDyAthgBS1sA5gzgoANOgCutDAEEAIgCkAkgDkAwuiJJ0JFACtpRLTuQNapBsZRIyZEnQCUIMbCggACmvUeXIAGpQANpBIAC0AIwAnDFRYpGxABxiAMyQEZAALLGp6QCsAAxFGZkATAWxeWKZkAkxAOy1EX6qxOgAomQyAO4AFjQYAOI4SJLUKC6Y5DIAumKhaYVFkLFRfgAkVUUFJujrcbEuRDiScHML6dsF6dkxGxEFYtu76xGZYodix6fnIGkRS2upVua1cry2RRewI~dy~JzO8z~kFKgMgKRBGxRT0h2j26JhoO~CIuKVRINBIHWpOxO1x62yBKO8N~iyukHqGLBhRpLw5jLhP0RaXqqIBVw2Ip5JAYKHQSAAbjQmYLQgUWjplJwkDxlWcZgBfIA) - Note, manually change for each year. Save to (`./data/census.gov/`)
 - [Zillow data](https://www.zillow.com/research/data/)
-    - ZHVI All Homes, Time Series, Raw, Metro & US -> `./data/in/zillow_home_value_index.csv`
-    - Market Heat Index, All Homes, Monthly, Metro & US -> `./data/in/zillow_market_heat.csv`
-    - Affordability, New Homeowner Income Needed, Metro & US -> `./data/in/zillow_affordability.csv`
+  - ZHVI All Homes, Time Series, Raw, Metro & US -> `./data/in/zillow_home_value_index.csv`
+  - Market Heat Index, All Homes, Monthly, Metro & US -> `./data/in/zillow_market_heat.csv`
+  - Affordability, New Homeowner Income Needed, Metro & US -> `./data/in/zillow_affordability.csv`
 
 ### Notebooks
+
 - `1_make_demographic_data.ipynb` - responsible from combinging all the census data files into one csv
 - `2_combine.ipynb` - makes the various combinations for the files in `./data/out/`
 - `3_python_visualizations.ipynb` - run some exploratory analysis using python
 
 ### Dashboards
+
 - Tableau
+  - zillow.twb
+  - demographics.twb
 - PowerBI
 
 ### Extra Stuff
-- `4_extra.ipynb` - extra stuff used for making visualizations
+
+- `extra.ipynb` - extra stuff used for making visualizations
 - `./draw.io/` - some figures used in the report
+
