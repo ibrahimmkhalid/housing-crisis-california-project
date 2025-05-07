@@ -15,6 +15,7 @@
 - `1_make_demographic_data.ipynb` - responsible from combinging all the census data files into one csv
 - `2_combine.ipynb` - makes the various combinations for the files in `./data/out/`
 - `3_python_visualizations.ipynb` - run some exploratory analysis using python
+- `4_arima.ipynb` - perform ARIMA analysis on zillow and demographic data
 
 ### Dashboards
 
