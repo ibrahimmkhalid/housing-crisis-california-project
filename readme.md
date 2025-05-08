@@ -23,6 +23,7 @@
   - zillow.twb linked [here](https://public.tableau.com/app/profile/ibrahim.khalid1856/viz/zillow_17465855748720/AverageZHVItop5citiesvsIncomeNeeded_)
   - demographics.twb linked [here](https://public.tableau.com/app/profile/ibrahim.khalid1856/viz/demographics_17465219834190/DemographicsofCalifornia2008-2023)
 - PowerBI
+  - 230_zillow project.pbix
 
 ### Extra Stuff
 

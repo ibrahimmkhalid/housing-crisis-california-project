@@ -207,7 +207,7 @@ cython_debug/
 *.nlo
 *.nls
 *.out
-*.pdf
+report/*.pdf
 *.pyg
 *.run.xml
 *.snm
